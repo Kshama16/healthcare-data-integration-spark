@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/raw/
+spark-warehouse/
+.metastore/
+metastore_db/
+derby.log
+.DS_Store

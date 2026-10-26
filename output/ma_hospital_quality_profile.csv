@@ -1,0 +1,56 @@
+provider_id,hospital_name,city,state,hospital_type,ownership,overall_star_rating,measures_compared,measures_better,measures_worse,pct_better,pct_worse,patient_experience_stars,ed_median_minutes,sepsis_care_pct,avg_infection_sir
+220071,MASSACHUSETTS GENERAL HOSPITAL,BOSTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,22,8,0,36.4,0.0,4.0,288.0,49.0,0.82
+220062,ADCARE HOSPITAL OF WORCESTER INC,WORCESTER,MA,Acute Care Hospitals,Proprietary,,4,1,0,25.0,0.0,,,,0.0
+220110,BRIGHAM AND WOMEN'S HOSPITAL,BOSTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,22,5,0,22.7,0.0,4.0,300.0,37.0,0.556
+220012,CAPE COD HOSPITAL,HYANNIS,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,21,4,1,19.0,4.8,3.0,201.0,68.0,0.391
+220031,BOSTON MEDICAL CENTER,BOSTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,22,4,1,18.2,4.5,3.0,227.0,62.0,0.457
+220046,BERKSHIRE MEDICAL CENTER,PITTSFIELD,MA,Acute Care Hospitals,Voluntary non-profit - Other,4.0,21,3,0,14.3,0.0,3.0,254.0,87.0,0.26
+220101,NEWTON-WELLESLEY HOSPITAL,NEWTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,21,3,0,14.3,0.0,3.0,265.0,41.0,0.595
+220086,BETH ISRAEL DEACONESS MEDICAL CENTER,BOSTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,22,3,3,13.6,13.6,4.0,336.0,43.0,1.248
+220171,"LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON",BURLINGTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,4.0,22,3,2,13.6,9.1,3.0,226.0,49.0,0.942
+220163,UMASS MEMORIAL MEDICAL CENTER/UNIVERSITY CAMPUS,WORCESTER,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,22,3,3,13.6,13.6,3.0,291.0,58.0,0.869
+220036,BOSTON MEDICAL CENTER-BRIGHTON,BRIGHTON,MA,Acute Care Hospitals,Proprietary,3.0,19,2,0,10.5,0.0,3.0,146.0,40.0,0.393
+220119,BRIGHAM AND WOMEN FAULKNER HOSPITAL,JAMAICA PLAIN,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,19,2,0,10.5,0.0,3.0,256.0,59.0,0.564
+220070,MELROSEWAKEFIELD HEALTHCARE,MELROSE,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,19,2,1,10.5,5.3,3.0,190.0,47.0,0.755
+220010,MERRIMACK HEALTH LAWRENCE HOSPITAL,LAWRENCE,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,19,2,0,10.5,0.0,2.0,241.0,39.0,0.368
+220035,NORTH SHORE MEDICAL CENTER -,SALEM,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,21,2,0,9.5,0.0,3.0,271.0,44.0,0.926
+220100,SOUTH SHORE HOSPITAL,SOUTH WEYMOUTH,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,21,2,0,9.5,0.0,3.0,233.0,56.0,0.631
+220074,SOUTHCOAST HOSPITALS GROUP,FALL RIVER,MA,Acute Care Hospitals,Voluntary non-profit - Private,4.0,21,2,1,9.5,4.8,3.0,190.0,67.0,0.606
+220077,BAYSTATE MEDICAL CENTER,SPRINGFIELD,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,22,2,4,9.1,18.2,2.0,286.0,41.0,0.589
+220116,TUFTS MEDICAL CENTER,BOSTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,22,2,1,9.1,4.5,4.0,208.0,36.0,0.872
+220088,NEW ENGLAND BAPTIST HOSPITAL,BOSTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,14,1,1,7.1,7.1,4.0,,,0.0
+220108,BETH ISRAEL DEACONESS HOSPITAL - MILTON,MILTON,MA,Acute Care Hospitals,Government - Federal,4.0,17,1,0,5.9,0.0,3.0,218.0,57.0,0.716
+220073,BROWN UNIVERSITY HEALTH MORTON HOSPITAL,TAUNTON,MA,Acute Care Hospitals,Proprietary,1.0,17,1,0,5.9,0.0,2.0,209.0,72.0,0.694
+220011,CAMBRIDGE HEALTH ALLIANCE,CAMBRIDGE,MA,Acute Care Hospitals,Government - Local,3.0,17,1,0,5.9,0.0,3.0,153.0,49.0,0.832
+220095,HEYWOOD HOSPITAL -,GARDNER,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,17,1,0,5.9,0.0,4.0,192.0,40.0,0.072
+220019,UMASS MEMORIAL HEALTH - HARRINGTON HOSPITAL,SOUTHBRIDGE,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,17,1,0,5.9,0.0,2.0,209.0,59.0,0.0
+220080,HOLY FAMILY HOSPITAL,METHUEN,MA,Acute Care Hospitals,Proprietary,2.0,18,1,0,5.6,0.0,2.0,238.0,42.0,0.888
+220052,SIGNATURE HEALTHCARE BROCKTON HOSPITAL,BROCKTON,MA,Acute Care Hospitals,Voluntary non-profit - Other,3.0,18,1,0,5.6,0.0,2.0,208.0,83.0,0.796
+220111,GOOD SAMARITAN MEDICAL CENTER,BROCKTON,MA,Acute Care Hospitals,Proprietary,2.0,19,1,0,5.3,0.0,2.0,264.0,39.0,0.488
+220024,HOLYOKE MEDICAL CENTER,HOLYOKE,MA,Acute Care Hospitals,Voluntary non-profit - Private,4.0,19,1,0,5.3,0.0,3.0,253.0,87.0,0.208
+220090,MILFORD REGIONAL MEDICAL CENTER,MILFORD,MA,Acute Care Hospitals,Voluntary non-profit - Other,4.0,19,1,0,5.3,0.0,4.0,274.0,44.0,0.164
+220001,UMASS MEMORIAL HEALTHALLIANCE HOSPITALS,LEOMINSTER,MA,Acute Care Hospitals,Voluntary non-profit - Other,3.0,19,1,0,5.3,0.0,2.0,253.0,52.0,0.446
+220020,SAINT ANNE'S HOSPITAL,FALL RIVER,MA,Acute Care Hospitals,Proprietary,3.0,20,1,0,5.0,0.0,4.0,194.0,83.0,0.373
+220084,EMERSON HOSPITAL -,W CONCORD,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,21,1,0,4.8,0.0,3.0,208.0,70.0,0.257
+220135,FALMOUTH HOSPITAL,FALMOUTH,MA,Acute Care Hospitals,Voluntary non-profit - Private,4.0,21,1,0,4.8,0.0,3.0,160.0,84.0,0.924
+220063,LOWELL GENERAL HOSPITAL,LOWELL,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,21,1,1,4.8,4.8,3.0,267.0,67.0,0.786
+220066,MERCY MEDICAL CTR,SPRINGFIELD,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,21,1,0,4.8,0.0,3.0,275.0,51.0,0.426
+220002,MOUNT AUBURN HOSPITAL,CAMBRIDGE,MA,Acute Care Hospitals,Voluntary non-profit - Private,4.0,21,1,0,4.8,0.0,3.0,205.0,38.0,0.459
+220033,NORTHEAST HOSPITAL CORPORATION,BEVERLY,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,21,1,0,4.8,0.0,3.0,190.0,46.0,0.551
+220008,STURDY MEMORIAL HOSPITAL,ATTLEBORO,MA,Acute Care Hospitals,Voluntary non-profit - Other,3.0,21,1,0,4.8,0.0,3.0,194.0,59.0,0.668
+220105,WINCHESTER HOSPITAL,WINCHESTER,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,21,1,0,4.8,0.0,3.0,233.0,52.0,0.742
+220029,ANNA JAQUES HOSPITAL,NEWBURYPORT,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,17,0,0,0.0,0.0,2.0,188.0,40.0,0.172
+220016,BAYSTATE FRANKLIN MEDICAL CENTER,GREENFIELD,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,17,0,0,0.0,0.0,3.0,194.0,54.0,0.299
+220065,BAYSTATE NOBLE HOSPITAL,WESTFIELD,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,10,0,0,0.0,0.0,3.0,215.0,62.0,0.742
+220030,BAYSTATE WING HOSPITAL,PALMER,MA,Acute Care Hospitals,Voluntary non-profit - Other,4.0,11,0,0,0.0,0.0,3.0,214.0,60.0,0.501
+220083,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,NEEDHAM,MA,Acute Care Hospitals,Voluntary non-profit - Private,5.0,15,0,0,0.0,0.0,3.0,196.0,31.0,0.59
+220060,BETH ISRAEL DEACONESS HOSPITAL PLYMOUTH,PLYMOUTH,MA,Acute Care Hospitals,Voluntary non-profit - Private,4.0,21,0,1,0.0,4.8,3.0,237.0,38.0,0.925
+220015,"COOLEY DICKINSON HOSPITAL INC,THE",NORTHAMPTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,20,0,4,0.0,20.0,3.0,261.0,55.0,1.458
+220049,MARLBOROUGH HOSPITAL,MARLBOROUGH,MA,Acute Care Hospitals,Voluntary non-profit - Private,2.0,12,0,0,0.0,0.0,3.0,226.0,58.0,0.312
+220075,MASSACHUSETTS EYE AND EAR INFIRMARY -,BOSTON,MA,Acute Care Hospitals,Voluntary non-profit - Private,,14,0,1,0.0,7.1,4.0,174.0,,0.593
+220175,METROWEST MEDICAL CENTER,FRAMINGHAM,MA,Acute Care Hospitals,Voluntary non-profit - Private,1.0,16,0,0,0.0,0.0,1.0,205.0,45.0,1.151
+220177,NANTUCKET COTTAGE HOSPITAL,NANTUCKET,MA,Acute Care Hospitals,Voluntary non-profit - Private,3.0,7,0,0,0.0,0.0,,120.0,58.0,
+220126,NORWOOD HOSPITAL,NORWOOD,MA,Acute Care Hospitals,Proprietary,,2,0,0,0.0,0.0,,,,
+220176,ST VINCENT HOSPITAL,WORCESTER,MA,Acute Care Hospitals,Proprietary,2.0,21,0,0,0.0,0.0,2.0,206.0,42.0,0.517
+220017,CARNEY HOSPITAL,BOSTON,MA,Acute Care Hospitals,Proprietary,,0,0,0,,,,,,
+220098,NASHOBA VALLEY MEDICAL CENTER,AYER,MA,Acute Care Hospitals,Proprietary,,0,0,0,,,,,,

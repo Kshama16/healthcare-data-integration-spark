@@ -1,0 +1,23 @@
+check,detail,observed,run_id,severity,status
+null_score_share_complications_and_deaths,suppressed or not reported; footnote kept,"45% of 95,800 rows have no score",20261026T171039,info,PASS
+null_score_share_hcahps_patient_survey,suppressed or not reported; footnote kept,"24% of 325,720 rows have no score",20261026T171039,info,PASS
+score_within_range,"percent 0-100, star_rating 1-5, linear_mean 0-100, ordinal 1-4, ratio 0-100, minutes 0-2880",2 out of range,20261026T171039,warning,FAIL
+confidence_interval_contains_score,lower_estimate <= score <= higher_estimate,0 rows,20261026T171039,warning,PASS
+period_start_before_end,,0 rows,20261026T171039,critical,PASS
+hcahps_answer_shares_sum_to_100,rounding tolerance 3 points,"0 of 67,691 hospital-questions off by >3 pts",20261026T171039,warning,PASS
+null_score_share_healthcare_associated_infections,suppressed or not reported; footnote kept,"61% of 28,740 rows have no score",20261026T171039,info,PASS
+null_score_share_timely_and_effective_care,suppressed or not reported; footnote kept,"58% of 138,084 rows have no score",20261026T171039,info,PASS
+null_score_share_unplanned_hospital_visits,suppressed or not reported; footnote kept,"52% of 67,060 rows have no score",20261026T171039,info,PASS
+data_freshness,,latest period_end 2025-09-30,20261026T171039,warning,PASS
+reconciliation_timely_and_effective_care,,"raw 138,084 = standard 138,084 + rejected 0",20261026T171039,critical,PASS
+reject_rate_below_1pct,,0 rejected rows,20261026T171039,warning,PASS
+primary_key_unique,key = provider_id + source_dataset + measure_id,0 duplicate keys,20261026T171039,critical,PASS
+provider_id_format,6-character CMS Certification Number,0 invalid,20261026T171039,critical,PASS
+reconciliation_healthcare_associated_infections,,"raw 172,440 = standard 172,440 + rejected 0",20261026T171039,critical,PASS
+reconciliation_hcahps_patient_survey,,"raw 325,720 = standard 325,720 + rejected 0",20261026T171039,critical,PASS
+reconciliation_complications_and_deaths,,"raw 95,800 = standard 95,800 + rejected 0",20261026T171039,critical,PASS
+reconciliation_unplanned_hospital_visits,,"raw 67,060 = standard 67,060 + rejected 0",20261026T171039,critical,PASS
+score_type_assigned,,0 rows without score_type,20261026T171039,critical,PASS
+provider_in_dim_hospital,,0 provider IDs not in dim_hospital,20261026T171039,warning,PASS
+compared_to_national_mapped,,0 unmapped rows,20261026T171039,critical,PASS
+compared_label_variants_standardized,,14 raw labels -> 5 categories,20261026T171039,info,PASS

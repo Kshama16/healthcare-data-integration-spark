@@ -1,0 +1,5 @@
+pyspark==4.2.0
+pandas==2.3.3
+pyarrow==26.0.0
+pytest==9.1.1
+certifi==2026.10.23

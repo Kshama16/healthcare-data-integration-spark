@@ -1,0 +1,139 @@
+source_dataset,domain,measure_id,measure_name,score_type,hospitals_with_score,p25,median,p75,hospitals_better,hospitals_worse
+complications_and_deaths,outcomes,COMP_HIP_KNEE,Rate of complications for hip/knee replacement patients,rate,1706,3.6,4.1,4.6,0,0
+complications_and_deaths,outcomes,Hybrid_HWM,Hybrid Hospital-Wide All-Cause Risk Standardized Mortality Rate,rate,4261,3.5,3.9,4.4,0,0
+complications_and_deaths,outcomes,MORT_30_AMI,Death rate for heart attack patients,rate,1935,11.1,11.8,12.5,0,0
+complications_and_deaths,outcomes,MORT_30_CABG,Death rate for CABG surgery patients,rate,861,1.9,2.3,2.8,0,0
+complications_and_deaths,outcomes,MORT_30_COPD,Death rate for COPD patients,rate,2623,7.6,8.5,9.5,0,0
+complications_and_deaths,outcomes,MORT_30_HF,Death rate for heart failure patients,rate,3049,9.7,11.0,12.3,0,0
+complications_and_deaths,outcomes,MORT_30_PN,Death rate for pneumonia patients,rate,3639,13.5,15.2,16.9,0,0
+complications_and_deaths,outcomes,MORT_30_STK,Death rate for stroke patients,rate,2422,10.3,11.6,13.3,0,0
+complications_and_deaths,outcomes,PSI_03,Pressure ulcer rate,rate,3056,0.34,0.51,0.65,49,178
+complications_and_deaths,outcomes,PSI_04,Death rate among surgical inpatients with serious treatable complications,rate,1521,159.06,172.73,188.71,45,56
+complications_and_deaths,outcomes,PSI_06,Iatrogenic pneumothorax rate,rate,3085,0.19,0.2,0.22,0,14
+complications_and_deaths,outcomes,PSI_08,In-hospital fall-associated fracture rate,rate,3084,0.25,0.27,0.29,1,11
+complications_and_deaths,outcomes,PSI_09,Postoperative hemorrhage or hematoma rate,rate,2826,2.14,2.29,2.49,6,29
+complications_and_deaths,outcomes,PSI_10,Postoperative acute kidney injury requiring dialysis rate,rate,2452,1.55,1.63,1.67,3,21
+complications_and_deaths,outcomes,PSI_11,Postoperative respiratory failure rate,rate,2461,7.74,8.88,10.9,36,102
+complications_and_deaths,outcomes,PSI_12,Perioperative pulmonary embolism or deep vein thrombosis rate,rate,2833,3.11,3.4,3.81,12,63
+complications_and_deaths,outcomes,PSI_13,Postoperative sepsis rate,rate,2406,4.73,5.1,5.8,22,37
+complications_and_deaths,outcomes,PSI_14,Postoperative wound dehiscence rate,rate,2474,1.66,1.72,1.77,0,8
+complications_and_deaths,outcomes,PSI_15,Abdominopelvic accidental puncture or laceration rate,rate,2790,0.95,1.02,1.11,2,25
+complications_and_deaths,outcomes,PSI_90,CMS Medicare PSI 90: Patient safety and adverse events composite,rate,2908,0.89,0.96,1.06,61,162
+hcahps_patient_survey,patient_experience,H_CLEAN_HSP_A_P,"Patients who reported that their room and bathroom were ""Always"" clean",percent,3949,68.0,73.0,80.0,0,0
+hcahps_patient_survey,patient_experience,H_CLEAN_HSP_SN_P,"Patients who reported that their room and bathroom were ""Sometimes"" or ""Never"" clean",percent,3949,5.0,8.0,11.0,0,0
+hcahps_patient_survey,patient_experience,H_CLEAN_HSP_U_P,"Patients who reported that their room and bathroom were ""Usually"" clean",percent,3949,15.0,18.0,21.0,0,0
+hcahps_patient_survey,patient_experience,H_CLEAN_LINEAR_SCORE,Cleanliness - linear mean score,linear_mean,3183,84.0,87.0,90.0,0,0
+hcahps_patient_survey,patient_experience,H_CLEAN_STAR_RATING,Cleanliness - star rating,star_rating,3183,3.0,4.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_1_A_P,"Patients who reported that their nurses ""Always"" communicated well",percent,3949,76.0,80.0,84.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_1_LINEAR_SCORE,Nurse communication - linear mean score,linear_mean,3183,90.0,91.0,93.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_1_SN_P,"Patients who reported that their nurses ""Sometimes"" or ""Never"" communicated well",percent,3949,3.0,4.0,5.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_1_STAR_RATING,Nurse communication - star rating,star_rating,3183,3.0,3.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_1_U_P,"Patients who reported that their nurses ""Usually"" communicated well",percent,3949,14.0,16.0,19.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_2_A_P,"Patients who reported that their doctors ""Always"" communicated well",percent,3949,76.0,79.0,83.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_2_LINEAR_SCORE,Doctor communication - linear mean score,linear_mean,3183,89.0,91.0,92.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_2_SN_P,"Patients who reported that their doctors ""Sometimes"" or ""Never"" communicated well",percent,3949,4.0,5.0,7.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_2_STAR_RATING,Doctor communication - star rating,star_rating,3183,2.0,3.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_2_U_P,"Patients who reported that their doctors ""Usually"" communicated well",percent,3949,13.0,16.0,18.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_5_A_P,"Patients who reported that staff ""Always"" explained about medicines before giving it to them",percent,3948,57.0,61.0,66.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_5_LINEAR_SCORE,Communication about medicines - linear mean score,linear_mean,3183,74.0,77.0,80.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_5_SN_P,"Patients who reported that staff ""Sometimes"" or ""Never"" explained about medicines before giving it to them",percent,3948,15.0,19.0,23.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_5_STAR_RATING,Communication about medicines - star rating,star_rating,3183,2.0,3.0,3.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_5_U_P,"Patients who reported that staff ""Usually"" explained about medicines before giving it to them",percent,3948,17.0,19.0,21.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_6_LINEAR_SCORE,Discharge information - linear mean score,linear_mean,3183,83.0,86.0,88.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_6_N_P,"Patients who reported that NO, they were not given information about what to do during their recovery at home",percent,3949,11.0,13.0,16.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_6_STAR_RATING,Discharge information - star rating,star_rating,3183,3.0,3.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_COMP_6_Y_P,"Patients who reported that YES, they were given information about what to do during their recovery at home",percent,3949,84.0,87.0,89.0,0,0
+hcahps_patient_survey,patient_experience,H_DISCH_HELP_N_P,"Patients who reported that NO, they did not discuss whether they would need help after discharge",percent,3610,12.0,14.0,18.0,0,0
+hcahps_patient_survey,patient_experience,H_DISCH_HELP_Y_P,"Patients who reported that YES, they did discuss whether they would need help after discharge",percent,3610,82.0,86.0,88.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_EXPLAIN_A_P,"Patients who reported that their doctors ""Always"" explained things in a way they could understand",percent,3610,70.0,74.0,78.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_EXPLAIN_SN_P,"Patients who reported that their doctors ""Sometimes"" or ""Never"" explained things in a way they could understand",percent,3610,5.0,7.0,8.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_EXPLAIN_U_P,"Patients who reported that their doctors ""Usually"" explained things in a way they could understand",percent,3610,17.0,19.0,22.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_LISTEN_A_P,"Patients who reported that their doctors ""Always"" listened carefully to them",percent,3610,74.0,77.0,81.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_LISTEN_SN_P,"Patients who reported that their doctors ""Sometimes"" or ""Never"" listened carefully to them",percent,3610,4.0,6.0,7.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_LISTEN_U_P,"Patients who reported that their doctors ""Usually"" listened carefully to them",percent,3610,14.0,17.0,19.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_RESPECT_A_P,"Patients who reported that their doctors ""Always"" treated them with courtesy and respect",percent,3610,82.0,85.0,88.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_RESPECT_SN_P,"Patients who reported that their doctors ""Sometimes"" or ""Never""  treated them with courtesy and respect",percent,3610,3.0,3.0,5.0,0,0
+hcahps_patient_survey,patient_experience,H_DOCTOR_RESPECT_U_P,"Patients who reported that their doctors ""Usually""  treated them with courtesy and respect",percent,3610,9.0,11.0,13.0,0,0
+hcahps_patient_survey,patient_experience,H_HSP_RATING_0_6,Patients who gave their hospital a rating of 6 or lower on a scale from 0 (lowest) to 10 (highest),percent,3949,5.0,8.0,11.0,0,0
+hcahps_patient_survey,patient_experience,H_HSP_RATING_7_8,Patients who gave their hospital a rating of 7 or 8 on a scale from 0 (lowest) to 10 (highest),percent,3949,16.0,20.0,24.0,0,0
+hcahps_patient_survey,patient_experience,H_HSP_RATING_9_10,Patients who gave their hospital a rating of 9 or 10 on a scale from 0 (lowest) to 10 (highest),percent,3949,66.0,72.0,78.0,0,0
+hcahps_patient_survey,patient_experience,H_HSP_RATING_LINEAR_SCORE,Overall hospital rating - linear mean score,linear_mean,3183,86.0,88.0,90.0,0,0
+hcahps_patient_survey,patient_experience,H_HSP_RATING_STAR_RATING,Overall hospital rating - star rating,star_rating,3183,3.0,3.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_MED_FOR_A_P,"Patients who reported that when receiving new medication the staff ""Always"" communicated what the medication was for",percent,3610,71.0,74.0,78.0,0,0
+hcahps_patient_survey,patient_experience,H_MED_FOR_SN_P,"Patients who reported that when receiving new medication the staff ""Sometimes"" or ""Never"" communicated what the medication was for",percent,3610,7.0,9.0,12.0,0,0
+hcahps_patient_survey,patient_experience,H_MED_FOR_U_P,"Patients who reported that when receiving new medication the staff ""Usually"" communicated what the medication was for.",percent,3610,14.0,16.0,18.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_EXPLAIN_A_P,"Patients who reported that their nurses ""Always"" explained things in a way they could understand",percent,3610,71.0,75.0,79.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_EXPLAIN_SN_P,"Patients who reported that their nurses ""Sometimes"" or ""Never"" explained things in a way they could understand",percent,3610,4.0,5.0,7.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_EXPLAIN_U_P,"Patients who reported that their nurses ""Usually"" explained things in a way they could understand",percent,3610,17.0,20.0,22.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_LISTEN_A_P,"Patients who reported that their nurses ""Always"" listened carefully to them",percent,3610,73.0,77.0,81.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_LISTEN_SN_P,"Patients who reported that their nurses ""Sometimes"" or ""Never"" listened carefully to them",percent,3610,3.0,4.0,6.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_LISTEN_U_P,"Patients who reported that their nurses ""Usually"" listened carefully to them",percent,3610,16.0,19.0,22.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_RESPECT_A_P,"Patients who reported that their nurses ""Always"" treated them with courtesy and respect",percent,3610,83.0,86.0,89.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_RESPECT_SN_P,"Patients who reported that their nurses ""Sometimes"" or ""Never""  treated them with courtesy and respect",percent,3610,2.0,3.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_NURSE_RESPECT_U_P,"Patients who reported that their nurses ""Usually""  treated them with courtesy and respect",percent,3610,9.0,11.0,14.0,0,0
+hcahps_patient_survey,patient_experience,H_QUIET_HSP_A_P,"Patients who reported that the area around their room was ""Always"" quiet at night",percent,3949,52.0,59.0,66.0,0,0
+hcahps_patient_survey,patient_experience,H_QUIET_HSP_SN_P,"Patients who reported that the area around their room was ""Sometimes"" or ""Never"" quiet at night",percent,3949,6.0,9.0,13.0,0,0
+hcahps_patient_survey,patient_experience,H_QUIET_HSP_U_P,"Patients who reported that the area around their room was ""Usually"" quiet at night",percent,3949,27.0,31.0,35.0,0,0
+hcahps_patient_survey,patient_experience,H_QUIET_LINEAR_SCORE,Quietness - linear mean score,linear_mean,3183,78.0,82.0,85.0,0,0
+hcahps_patient_survey,patient_experience,H_QUIET_STAR_RATING,Quietness - star rating,star_rating,3183,3.0,3.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_RECMND_DN,"Patients who reported NO, they would probably not or definitely not recommend the hospital",percent,3949,3.0,5.0,7.0,0,0
+hcahps_patient_survey,patient_experience,H_RECMND_DY,"Patients who reported YES, they would definitely recommend the hospital",percent,3949,65.0,71.0,78.0,0,0
+hcahps_patient_survey,patient_experience,H_RECMND_LINEAR_SCORE,Recommend hospital - linear mean score,linear_mean,3183,84.0,87.0,90.0,0,0
+hcahps_patient_survey,patient_experience,H_RECMND_PY,"Patients who reported YES, they would probably recommend the hospital",percent,3949,18.0,23.0,28.0,0,0
+hcahps_patient_survey,patient_experience,H_RECMND_STAR_RATING,Recommend hospital - star rating,star_rating,3183,3.0,4.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_SIDE_EFFECTS_A_P,"Patients who reported that when receiving new medication the staff ""Always"" discussed possible side effects",percent,3610,43.0,47.0,52.0,0,0
+hcahps_patient_survey,patient_experience,H_SIDE_EFFECTS_SN_P,"Patients who reported that when receiving new medication the staff ""Sometimes"" or ""Never"" discussed possible side effects",percent,3610,25.0,30.0,35.0,0,0
+hcahps_patient_survey,patient_experience,H_SIDE_EFFECTS_U_P,"Patients who reported that when receiving new medication the staff ""Usually"" discussed possible side effects",percent,3610,20.0,22.0,24.0,0,0
+hcahps_patient_survey,patient_experience,H_STAR_RATING,Summary star rating,star_rating,3183,3.0,3.0,4.0,0,0
+hcahps_patient_survey,patient_experience,H_SYMPTOMS_N_P,"Patients who reported that NO, they did not receive written information about possible symptoms to look out for after discharge",percent,3610,10.0,12.0,15.0,0,0
+hcahps_patient_survey,patient_experience,H_SYMPTOMS_Y_P,"Patients who reported that YES, they did receive written information about possible symptoms to look out for after discharge",percent,3610,85.0,88.0,90.0,0,0
+healthcare_associated_infections,safety,HAI_1,Central Line Associated Bloodstream Infection (ICU + select Wards),ratio,1936,0.18,0.48,0.81,490,27
+healthcare_associated_infections,safety,HAI_2,Catheter Associated Urinary Tract Infections (ICU + select Wards),ratio,2235,0.07,0.4,0.69,687,11
+healthcare_associated_infections,safety,HAI_3,SSI - Colon Surgery,ratio,1776,0.31,0.72,1.17,153,59
+healthcare_associated_infections,safety,HAI_4,SSI - Abdominal Hysterectomy,ratio,601,0.39,0.81,1.57,7,35
+healthcare_associated_infections,safety,HAI_5,MRSA Bacteremia,ratio,1733,0.29,0.6,0.93,217,19
+healthcare_associated_infections,safety,HAI_6,Clostridium Difficile (C.Diff),ratio,2985,0.1,0.28,0.49,1864,13
+timely_and_effective_care,process,EDV,Emergency department volume,ordinal,3826,1.0,2.0,3.0,0,0
+timely_and_effective_care,process,GMCS,Global Malnutrition Composite Score,percent,0,,,,0,0
+timely_and_effective_care,process,GMCS_Malnutrition_Diagnosis_Documented,Global Malnutrition Composite Score: Malnutrition Diagnosis Documented,percent,0,,,,0,0
+timely_and_effective_care,process,GMCS_Malnutrition_Screening,Global Malnutrition Composite Score: Malnutrition Risk Screening,percent,0,,,,0,0
+timely_and_effective_care,process,GMCS_Nutrition_Assessment,Global Malnutrition Composite Score: Nutrition Assessment,percent,0,,,,0,0
+timely_and_effective_care,process,GMCS_Nutritional_Care_Plan,Global Malnutrition Composite Score: Nutritional Care Plan,percent,0,,,,0,0
+timely_and_effective_care,process,HH_HYPER,Hospital Harm - Severe Hyperglycemia,rate,937,4.0,8.0,11.0,0,0
+timely_and_effective_care,process,HH_HYPO,Hospital Harm - Severe Hypoglycemia,rate,1415,0.0,1.0,2.0,0,0
+timely_and_effective_care,process,HH_ORAE,Hospital Harm - Opioid Related Adverse Events,rate,642,0.0,0.0,0.0,0,0
+timely_and_effective_care,process,IMM_3,Healthcare workers given influenza vaccination,percent,4260,62.0,79.0,91.0,0,0
+timely_and_effective_care,process,OP_18a,"Average (median) time all patients spent in the emergency department before leaving from the visit, including psychiatric/mental health patients and patients who were transferred to another facility. A lower number of minutes is better",minutes,4052,125.0,154.0,194.0,0,0
+timely_and_effective_care,process,OP_18b,"Average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. A lower number of minutes is better",minutes,4081,119.0,148.0,188.0,0,0
+timely_and_effective_care,process,OP_18c,Average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. A lower number of minutes is better,minutes,3023,184.0,247.0,324.0,0,0
+timely_and_effective_care,process,OP_18d,Average (median) time patients spent in the emergency department before being transferred to another facility. A lower number of minutes is better,minutes,2364,236.0,293.0,360.0,0,0
+timely_and_effective_care,process,OP_22,Left before being seen,percent,3821,1.0,1.0,2.0,0,0
+timely_and_effective_care,process,OP_23,Head CT results,percent,1492,61.0,74.0,84.0,0,0
+timely_and_effective_care,process,OP_29,Endoscopy/polyp surveillance: appropriate follow-up interval for normal colonoscopy in average risk patients,percent,2849,92.0,97.0,100.0,0,0
+timely_and_effective_care,process,OP_31,Improvement in Patient's Visual Function within 90 Days Following Cataract Surgery,percent,15,90.0,99.0,100.0,0,0
+timely_and_effective_care,process,OP_40,ST-Segment Elevation Myocardial Infarction (STEMI),percent,393,33.0,53.0,65.0,0,0
+timely_and_effective_care,process,SAFE_USE_OF_OPIOIDS,Safe Use of Opioids - Concurrent Prescribing,percent,3740,12.0,15.0,18.0,0,0
+timely_and_effective_care,process,SEP_1,Appropriate care for severe sepsis and septic shock,percent,3115,54.0,65.0,75.0,0,0
+timely_and_effective_care,process,SEP_SH_3HR,Septic Shock 3-Hour Bundle,percent,2655,61.0,73.0,84.0,0,0
+timely_and_effective_care,process,SEP_SH_6HR,Septic Shock 6-Hour Bundle,percent,2217,79.0,88.0,95.0,0,0
+timely_and_effective_care,process,SEV_SEP_3HR,Severe Sepsis 3-Hour Bundle,percent,3094,75.0,82.0,88.0,0,0
+timely_and_effective_care,process,SEV_SEP_6HR,Severe Sepsis 6-Hour Bundle,percent,2957,90.0,94.0,97.0,0,0
+timely_and_effective_care,process,STK_02,Discharged on Antithrombotic Therapy,percent,1605,96.0,98.0,99.0,0,0
+timely_and_effective_care,process,STK_03,Anticoagulation Therapy for Atrial Fibrillation/Flutter,percent,295,66.0,75.0,83.0,0,0
+timely_and_effective_care,process,STK_05,Antithrombotic Therapy by End of Hospital Day 2,percent,1303,91.0,94.0,97.0,0,0
+timely_and_effective_care,process,VTE_1,Venous Thromboembolism Prophylaxis,percent,2184,76.0,90.0,96.0,0,0
+timely_and_effective_care,process,VTE_2,Intensive Care Unit Venous Thromboembolism Prophylaxis,percent,1411,93.0,97.0,99.0,0,0
+unplanned_hospital_visits,readmissions,EDAC_30_AMI,Hospital return days for heart attack patients,rate,1532,-10.1,4.2,19.9,0,0
+unplanned_hospital_visits,readmissions,EDAC_30_HF,Hospital return days for heart failure patients,rate,3108,-17.0,1.2,20.5,0,0
+unplanned_hospital_visits,readmissions,EDAC_30_PN,Hospital return days for pneumonia patients,rate,3652,-15.0,3.8,22.8,0,0
+unplanned_hospital_visits,readmissions,Hybrid_HWR,Hybrid Hospital-Wide All-Cause Readmission Measure (HWR),rate,0,,,,0,0
+unplanned_hospital_visits,readmissions,OP_32,"Rate of unplanned hospital visits after colonoscopy (per 1,000 colonoscopies)",rate,3137,12.5,12.9,13.4,12,3
+unplanned_hospital_visits,readmissions,OP_35_ADM,Rate of inpatient admissions for patients receiving outpatient chemotherapy,rate,1506,9.9,10.7,11.6,15,70
+unplanned_hospital_visits,readmissions,OP_35_ED,Rate of emergency department (ED) visits for patients receiving outpatient chemotherapy,rate,1506,4.9,5.3,5.8,25,16
+unplanned_hospital_visits,readmissions,OP_36,Ratio of unplanned hospital visits after hospital outpatient surgery,rate,2712,0.9,1.0,1.1,87,48
+unplanned_hospital_visits,readmissions,READM_30_AMI,Acute Myocardial Infarction (AMI) 30-Day Readmission Rate,rate,1971,13.9,14.4,14.9,0,0
+unplanned_hospital_visits,readmissions,READM_30_CABG,Rate of readmission for CABG,rate,938,10.1,10.9,12.0,0,0
+unplanned_hospital_visits,readmissions,READM_30_COPD,Rate of readmission for chronic obstructive pulmonary disease (COPD) patients,rate,3086,19.3,19.8,20.4,0,0
+unplanned_hospital_visits,readmissions,READM_30_HF,Heart failure (HF) 30-Day Readmission Rate,rate,3253,20.6,21.3,22.1,0,0
+unplanned_hospital_visits,readmissions,READM_30_HIP_KNEE,Rate of readmission after hip/knee replacement,rate,1695,5.4,5.8,6.2,0,0
+unplanned_hospital_visits,readmissions,READM_30_PN,Pneumonia (PN) 30-Day Readmission Rate,rate,3758,16.7,17.2,17.9,0,0

@@ -1,0 +1,115 @@
+{
+  "standard_schema_version": "1.0",
+  "null_tokens": ["Not Available", "Not Applicable", "N/A", ""],
+  "common_columns": {
+    "provider_id": "Facility ID",
+    "period_start": "Start Date",
+    "period_end": "End Date"
+  },
+  "date_format": "MM/dd/yyyy",
+  "reference_tables": {
+    "hospital_general_information": {"file": "hospital_general_information.csv"}
+  },
+  "sources": {
+    "complications_and_deaths": {
+      "file": "complications_and_deaths.csv",
+      "domain": "outcomes",
+      "layout": "standard",
+      "columns": {
+        "measure_id": "Measure ID",
+        "measure_name": "Measure Name",
+        "score": "Score",
+        "lower_estimate": "Lower Estimate",
+        "higher_estimate": "Higher Estimate",
+        "denominator": "Denominator",
+        "compared_to_national": "Compared to National",
+        "footnote": "Footnote"
+      },
+      "score_type": "rate"
+    },
+    "unplanned_hospital_visits": {
+      "file": "unplanned_hospital_visits.csv",
+      "domain": "readmissions",
+      "layout": "standard",
+      "columns": {
+        "measure_id": "Measure ID",
+        "measure_name": "Measure Name",
+        "score": "Score",
+        "lower_estimate": "Lower Estimate",
+        "higher_estimate": "Higher Estimate",
+        "denominator": "Denominator",
+        "numerator": "Number of Patients Returned",
+        "compared_to_national": "Compared to National",
+        "footnote": "Footnote"
+      },
+      "score_type": "rate"
+    },
+    "healthcare_associated_infections": {
+      "file": "healthcare_associated_infections.csv",
+      "domain": "safety",
+      "layout": "pivot_submeasure",
+      "columns": {
+        "measure_id": "Measure ID",
+        "measure_name": "Measure Name",
+        "score": "Score",
+        "compared_to_national": "Compared to National",
+        "footnote": "Footnote"
+      },
+      "submeasure_suffixes": {
+        "SIR": "score",
+        "CILOWER": "lower_estimate",
+        "CIUPPER": "higher_estimate",
+        "NUMERATOR": "numerator",
+        "ELIGCASES": "denominator",
+        "DOPC": null
+      },
+      "score_type": "ratio"
+    },
+    "hcahps_patient_survey": {
+      "file": "hcahps_patient_survey.csv",
+      "domain": "patient_experience",
+      "layout": "multi_value_column",
+      "columns": {
+        "measure_id": "HCAHPS Measure ID",
+        "measure_name": "HCAHPS Question",
+        "denominator": "Number of Completed Surveys"
+      },
+      "value_columns": [
+        {"column": "Patient Survey Star Rating", "score_type": "star_rating", "footnote": "Patient Survey Star Rating Footnote"},
+        {"column": "HCAHPS Answer Percent", "score_type": "percent", "footnote": "HCAHPS Answer Percent Footnote"},
+        {"column": "HCAHPS Linear Mean Value", "score_type": "linear_mean", "footnote": "Number of Completed Surveys Footnote"}
+      ]
+    },
+    "timely_and_effective_care": {
+      "file": "timely_and_effective_care.csv",
+      "domain": "process",
+      "layout": "standard",
+      "columns": {
+        "measure_id": "Measure ID",
+        "measure_name": "Measure Name",
+        "category": "Condition",
+        "score": "Score",
+        "denominator": "Sample",
+        "footnote": "Footnote"
+      },
+      "score_type": "percent",
+      "score_type_overrides": {"^OP_18": "minutes", "^HH_": "rate", "^EDV$": "ordinal"},
+      "categorical_scores": {"low": 1, "medium": 2, "high": 3, "very high": 4}
+    }
+  },
+  "compared_to_national": {
+    "better": ["Better Than the National Rate", "Better Than the National Value", "Better than the National Benchmark", "Better than expected"],
+    "no_different": ["No Different Than the National Rate", "No Different Than the National Value", "No Different than National Benchmark", "No Different than expected"],
+    "worse": ["Worse Than the National Rate", "Worse Than the National Value", "Worse than the National Benchmark", "Worse than expected"],
+    "too_few_cases": ["Number of Cases Too Small"],
+    "not_available": ["Not Available"]
+  },
+  "score_ranges": {
+    "percent": [0, 100],
+    "star_rating": [1, 5],
+    "linear_mean": [0, 100],
+    "ordinal": [1, 4],
+    "ratio": [0, 100],
+    "minutes": [0, 2880]
+  }
+}
